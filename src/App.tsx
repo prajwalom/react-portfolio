@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { Loader } from './components/Loader';
-import { BackgroundElements } from './components/BackgroundElements';
+import { BackgroundElements } from './components/BackgroundElement';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { About } from './components/About';

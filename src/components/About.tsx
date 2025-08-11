@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from '../hooks/useInView';
 import { Code, Palette, Zap } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export const About: React.FC = () => {
   const [ref, isInView] = useInView({ threshold: 0.3 });

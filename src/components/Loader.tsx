@@ -145,12 +145,12 @@ export const Loader: React.FC<LoaderProps> = ({ onComplete }) => {
           >
             {progress}%
           </motion.p>
-          <motion.div>
+          <motion.div
             animate={{ rotate: 360 }}
             transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
             className="w-4 h-4 border-2 border-blue-500/30 border-t-blue-500 rounded-full"
           />
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );
